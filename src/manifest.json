@@ -1,0 +1,9 @@
+{
+  "name": "Parsing extension with Angular",
+  "version": "1.0",
+  "description": "Parsing extension with Angular",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  }
+}
