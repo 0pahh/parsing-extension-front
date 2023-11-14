@@ -1,8 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @use "reset.scss";
+
 body {
   width: 300px;
   height: 350px;
   margin: 0px;
   overflow: hidden;
+}
+
+:host {
+  --color1: #f4f1de;
+  --color2: #e07a5f;
+  --color3: #3d405b;
+  --color4: #81b29a;
+  --color5: #f2cc8f;
 }
