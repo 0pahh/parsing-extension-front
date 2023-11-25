@@ -16,6 +16,7 @@
     margin: 0;
     margin-bottom: 1rem;
 
+
     .dot-loader {
       text-align: center;
       font-size: 24px;
@@ -60,7 +61,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 0.5rem;
     width: 100%;
     height: 100%;
@@ -78,7 +79,7 @@
       flex-direction: column;
       align-items: flex-end;
       height: 50%;
-      width: 100%;
+      width: 40%;
 
       .source-title {
         font-size: 1.2rem;
@@ -89,6 +90,7 @@
         margin-bottom: 5px;
       }
       div.source {
+        color: rgb(255, 255, 255);
         input[type="radio"] {
           width: 15px;
           height: 15px;
@@ -168,18 +170,16 @@
   }
 
   button.submit-btn {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: auto;
     font-weight: bold;
-    margin: 10px;
     background-color: var(--color2);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color3);
-    padding: 8px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 4px;
     border: 1px solid var(--color3);
     &:active:enabled {
@@ -188,9 +188,9 @@
     }
 
     &:disabled {
-      opacity: 0.5;
-      border: 2px solid red; /* Change the color or style for invalid input */
-      background-color: red;
+      opacity: 0.7;
+      border: 1px solid rgb(110, 110, 110); /* Change the color or style for invalid input */
+      background-color: rgb(110, 110, 110);
     }
   }
 }
